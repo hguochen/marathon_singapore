@@ -4,6 +4,7 @@
   ========================================
 */
 body {
+    background: #293f50;
     color: #888;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -111,10 +112,14 @@ p a {
   Buttons
   ========================================
 */
-.btn {    
+.btn {
     border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
     display: inline-block;
+    letter-spacing: .5px;
     margin: 0;
+    text-transform: uppercase;
 }
 .btn-alt {
     border: 1px solid #dfe2e5;
@@ -127,12 +132,15 @@ p a {
   ========================================
 */
 .hero {
+    color: #fff;
     line-height: 44px;
     padding: 42px 80px 66px 80px;
     text-align: center;
 }
 .hero h2 {
-    font-size: 36px;    
+    color: #2d9849;
+    font-size: 44px;
+    padding-bottom: 15px;
 }
 .hero p {
     font-size: 24px;    
@@ -141,12 +149,29 @@ p a {
     font-weight: 400;
     margin-right: 10px;
 }
+.hero a:hover {
+    border: 1px solid #a9b2b9;
+}
+.teaser-box {
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.teaser img {
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 22px;
+    max-width: 100%;
+}
 
 /*
   ========================================
   Primary header
   ========================================
 */
+header {
+    background: #fff;
+}
 .logo {
     border-top: 4px solid #005c86;
     float: left;
@@ -156,8 +181,15 @@ p a {
     padding: 40px 0 22px 0;
     font-weight:500;
 }
-.logo span {
-    color: #2d9849;    
+.logo img {
+    display: block;
+    float: left;
+    width: 120px;
+    height: 140px;
+}
+.logo strong {
+    color: #2d9849;
+    font-weight: 400;
 }
 .tagline {
     color: #2d9849;
@@ -172,8 +204,9 @@ p a {
   ========================================
 */
 .countdown div {
+    color: #fff;
     display: inline-block;
-    padding: 40px 30px 70px 30px;
+    padding: 40px 30px 20px 30px;
 }
 .countdown-value {
     font-size: 140px;
@@ -189,6 +222,13 @@ p a {
 .countdown-caption-hours {
     padding-left: 60px;    
 }
+.countdown-stmt {
+    color: #fff;
+    font-size: 26px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 /*
   ========================================
@@ -199,6 +239,8 @@ p a {
     font-size: 18px;
     font-weight: 400;
     letter-spacing: .5px;
+    padding-top:5px;
+    padding-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -212,14 +254,21 @@ p a {
   ========================================
 */
 .primary-footer small {
+    color: #a9b2b9;
     float: left;
-    font-weight: 200;
+    font-weight: 300;
 }
 .primary-footer {
     color: #005c86;
     font-size: 18px;
     padding-bottom: 44px;
-    padding-top: 44px;
+    padding-top: 14px;
+}
+.primary-footer a {
+    color: #fff;    
+}
+.primary-footer a:hover {
+    color: #a9b2b9;
 }
 .grid .col-2-12 {
     display: block;
@@ -248,4 +297,14 @@ p a {
 .group {
     clear: both;
     *zoom: 1;
+}
+
+/*
+  ========================================
+  Rows
+  ========================================
+*/
+.row {
+    background: #fff;
+    min-width: 960px;
 }
