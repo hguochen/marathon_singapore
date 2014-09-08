@@ -224,7 +224,13 @@ p a {
 .grid .col-2-12 {
     display: block;
     float: left;
-    margin: 20px 30px;
+    margin: 20px 10px;
+}
+.col-2-12 a {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
 }
 /*
   ========================================
