@@ -166,7 +166,9 @@ p a {
 .sponsor-img {
     height: 280px;    
 }
-
+.sponsors-banner {
+    padding: 0;    
+}
 /*
   ========================================
   Primary header
@@ -180,15 +182,20 @@ header {
     float: left;
     font-size: 32px;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
-    line-height: 36px;
+    line-height: 30px;
     padding: 40px 0 22px 0;
     font-weight:500;
 }
 .logo img {
     display: block;
     float: left;
-    width: 120px;
-    height: 140px;
+    width: 135px;
+    height: 135px;
+    padding: 0 20px 30px 10px;
+}
+.title {
+    position: relative;
+    top: 15px;
 }
 .logo strong {
     color: #2d9849;
@@ -264,7 +271,7 @@ header {
 .primary-footer {
     color: #005c86;
     font-size: 18px;
-    padding-bottom: 44px;
+    padding-bottom: 24px;
     padding-top: 14px;
 }
 .primary-footer a {
@@ -283,6 +290,10 @@ header {
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
+}
+.legal {
+    font-size: 14px;
+    text-align: right;    
 }
 /*
   ========================================
